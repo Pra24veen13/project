@@ -1,19 +1,21 @@
-<div class="loan">
+<div class="loan" [style.background-image]='bg_img '>
   <div class="size">
   <h1 class="head">EMI Calculator</h1>
   <div class="calculator">
       <input type="number" #principle placeholder="Principle Amount"><br><br>
       <input type="number" #time placeholder="Number of months"><br><br>
-      <input placeholder="Rate of Interest" value={{rate}}><br>
-      <select (change)="press($event)">
-          <option value="14">Home loan</option>
-          <option value="8">Personal loan</option>
-          <option value="9.5">Vehical loan</option>
-          <option value="10">Study loan</option>
-      </select><br><br>
-      <!-- <button (click)="calc(principle.value,time.value)" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enter</button>
-       -->
-
+      <input placeholder="Rate of Interest" value={{rate}}><br><br>
+      <input type="radio" (click)="press($event)" id="male" name="fn" value="10.5">
+        <label>Personal loan</label><br>
+      <input type="radio" (click)="press($event)" id="male" name="fn" value="8">
+        <label>home loan</label><br>
+      <input type="radio" (click)="press($event)" id="male" name="fn" value="9">
+        <label>education loan</label><br>
+      <input type="radio" (click)="press($event)" id="male" name="fn" value="8.5">
+        <label>vehical loan</label><br>
+      <button (click)="calc(principle.value,time.value)" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enter</button>
+  
+      
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
   

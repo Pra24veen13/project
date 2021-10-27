@@ -1,5 +1,5 @@
 .loan{
-    background-image:url("../../assets/images/123.jpg"); 
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -19,35 +19,7 @@ input {
     font-size: 20px; 
 }
  
-select{
-    font-size: 20px; 
+#male{
+    
+    color:#fff;
 }
-.imgChange{
-
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4XJbImTfAE_RFJCr3UQygAIY2ptou38ZuzJ5-suzCG1-4Gh0') no-repeat;
-    
-    width:500px;
-    
-    height:500px;
-    
-     }
-    
-    .imgChange1{
-    
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNLR28Cu21tcH39jOn7ByQWdr5CgftvBrJnCVAY1k99fWd8rJQ') no-repeat;;
-    
-    width:500px;
-    
-    height:500px;
-    
-     }
-    
-     .imgChange2{
-    
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4XJbImTfAE_RFJCr3UQygAIY2ptou38ZuzJ5-suzCG1-4Gh0') no-repeat;
-    
-    width:500px;
-    
-    height:500px;
-    
-     }

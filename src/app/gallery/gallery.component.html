@@ -1,0 +1,45 @@
+<div class="loan">
+  <div class="size">
+  <h1 class="head">EMI Calculator</h1>
+  <div class="calculator">
+      <input type="number" #principle placeholder="Principle Amount"><br><br>
+      <input type="number" #time placeholder="Number of months"><br><br>
+      <input placeholder="Rate of Interest" value={{rate}}><br>
+      <select (change)="press($event)">
+          <option value="14">Home loan</option>
+          <option value="8">Personal loan</option>
+          <option value="9.5">Vehical loan</option>
+          <option value="10">Study loan</option>
+      </select><br><br>
+      <!-- <button (click)="calc(principle.value,time.value)" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enter</button>
+       -->
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title">EMI</h4>
+      </div>
+      <div class="modal-body">
+        <p>Total amount you have to pay:{{value1}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+
+
+ 
+
+  
+

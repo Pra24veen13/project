@@ -1,0 +1,41 @@
+.column
+{
+    float: left;
+}
+
+.column1{
+    float: right;
+}
+
+ul li{
+    display: inline;
+}
+
+ ul li a
+{
+    text-decoration: none;
+    color:#2c2c2c;
+    padding: 10px;
+    font-size: 25px;
+}
+ul li a:hover{
+    color:aqua;
+}
+
+ul li span{
+    transition: 0.5s transform;
+    font-size: 25px;
+}
+
+ul li span:hover{
+transform: scale(1.4);
+
+} 
+
+.container{
+    width: 100%;
+}
+
+.headerlist{
+    margin: 30px;
+}

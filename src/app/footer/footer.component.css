@@ -1,0 +1,55 @@
+
+		.row8{
+			height:100px;
+		background-color:#1d202c;}
+		
+		
+		.con1{ 
+		width:21%;
+			
+			margin-top:20px;
+			margin-left:40px;
+			
+			float:left;
+			
+			
+		
+		}
+		
+			.con1 li a{
+			text-decoration:none;
+			color:#fff;
+			
+			}
+			
+			.con1 ul li{
+			
+		list-style:none;
+		}
+		
+		
+		.con1 .color{
+			color:#aaa;
+			font-size:15px;
+		}
+		
+		.con1 .color1{
+		
+			font-size:15px;
+		}
+		
+		
+		.conc1 .underline{
+		cursor:pointer; color:#0086f8; margin: 20px 0 -20px ; font-size:24px;}
+		
+		.conc1 .underline:hover{
+			text-decoration:underline;
+		}
+		
+		
+		.conc3 .underline{
+		cursor:pointer; color:#0086f8; margin: 20px 0 -20px ; font-size:24px;}
+		
+		.conc3 .underline:hover{
+			text-decoration:underline;
+		}

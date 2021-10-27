@@ -1,0 +1,31 @@
+
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+.container-fluid{
+    position: absolute;
+    margin-top: 20px;
+    z-index: -1;
+    width: 100%;
+    clear: both;
+}
+
+.btn-default{
+    font-size: 20px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -380px;
+    color: white;
+    background: 94% 45% no-repeat, linear-gradient(to right, #e11937 0%, #ff8300 100%); 
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+}
+.btn-default:hover{
+    background: #ff8300;
+}
